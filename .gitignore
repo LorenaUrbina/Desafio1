@@ -1,0 +1,9 @@
+# Excluir el directorio de estado local de Terraform
+.terraform/
+
+# Excluir archivos de estado de Terraform
+*.tfstate
+*.tfstate.*
+
+# Excluir archivos de backup de estado de Terraform
+*.backup
